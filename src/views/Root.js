@@ -22,7 +22,7 @@ import HomePage from './HomePage';
 const Root = () => {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <MainTemplate>
           <>
             <Navigation />
