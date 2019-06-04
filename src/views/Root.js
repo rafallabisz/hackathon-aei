@@ -27,7 +27,8 @@ const Root = () => {
           <>
             <Navigation />
             <Switch>
-              <Route exact path={routes.home} component={HomePage} />
+              {/* <Route exact path={routes.home} component={HomePage} /> */}
+              <Route exact path={routes.home} render={() => <Redirect to={routes.lowFake} />} />
               <Route exact path={routes.detailsPage} component={DetailsTemplate} />
               <Route exact path={routes.lowFake} component={LowFake} />
               <Route exact path={routes.mediumFake} component={MediumFake} />
