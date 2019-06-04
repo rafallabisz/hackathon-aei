@@ -2,7 +2,7 @@
 
 ### 30.05.2019 - 01.06.2019
 
-![Hackathon AEI logo](https://raw.githubusercontent.com/filiplipinski/hackathon-aei/master/public/hackathon.png)
+![Hackathon AEI logo](https://raw.githubusercontent.com/rafallabisz/hackathon-aei/master/public/hackathon.png)
 
 ## O wydarzeniu
 
